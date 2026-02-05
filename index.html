@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Kitchen Sink</title>
+    <link rel="stylesheet" href="minimum.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML5 Kitchen Sink</h1>
+        <nav>
+            <ul>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#tables">Tables</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="typography">
+            <h2>1. Typography</h2>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            
+            <p>This is a standard paragraph with <strong>bold text</strong>, <em>italicized text</em>, a <a href="#">link</a>, and a <a href="#" class="btn">button</a> It also includes <code>inline code</code> and <mark>highlighted text</mark>.</p>
+            
+            <blockquote>
+                "This is a blockquote element for longer citations or pull quotes."
+                <footer>— Source Name</footer>
+            </blockquote>
+
+            <pre><code>// This is a code block
+function helloWorld() {
+    console.log("Hello, Kitchen Sink!");
+}</code></pre>
+        </section>
+
+        <section id="lists">
+            <h2>2. Lists</h2>
+            <ul>
+                <li>Unordered list item one</li>
+                <li>Unordered list item two
+                    <ul>
+                        <li>Nested item</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ol>
+                <li>Ordered list item one</li>
+                <li>Ordered list item two</li>
+            </ol>
+
+            <dl>
+                <dt>Definition Title</dt>
+                <dd>Definition description text.</dd>
+            </dl>
+        </section>
+
+        <section id="forms">
+            <h2>3. Forms</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <p>
+                        <label for="name">Text Input:</label><br>
+                        <input type="text" id="name" placeholder="John Doe">
+                    </p>
+                    <p>
+                        <label for="email">Email Input:</label><br>
+                        <input type="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="selection">Select Menu:</label><br>
+                        <select id="selection">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="check"> <label for="check">Checkbox</label><br>
+                        <input type="radio" name="rad" id="r1"> <label for="r1">Radio 1</label>
+                    </p>
+                    <p>
+                        <label for="msg">Textarea:</label><br>
+                        <textarea id="msg" rows="4"></textarea>
+                    </p>
+                    <button type="submit">Submit Button</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="tables">
+            <h2>4. Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data A1</td>
+                        <td>Data A2</td>
+                        <td>Data A3</td>
+                    </tr>
+                    <tr>
+                        <td>Data B1</td>
+                        <td>Data B2</td>
+                        <td>Data B3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Table Footer</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML Kitchen Sink Template</p>
+    </footer>
+
+</body>
+</html>
