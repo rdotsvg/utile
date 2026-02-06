@@ -22,9 +22,14 @@ body {
     white-space: nowrap;
     text-decoration: none;
     border: 1px solid #c7c7c7;
-    transition: background-color 0.1s ease-in-out;
 }
 
-.btn :hover {
-    background-color: #ededed;
+button {
+    padding: 6px 13px;
+    border-radius: 100px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    white-space: nowrap;
+    text-decoration: none;
+    border: 1px solid #c7c7c7;
 }
